@@ -95,6 +95,7 @@ textarea {
       url('../images/hero-img-mob@2x.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 428px;
   }
 }
 .hero-title {
@@ -557,11 +558,16 @@ img {
   margin-bottom: 16px;
   text-align: center;
 }
+.footer-information {
+  padding-bottom: 72px;
+}
+.footer-container {
+  padding-bottom: 72px;
+}
 .footer-text {
   color: var(--footer-text);
   max-width: 264px;
   margin-top: 0;
-  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
@@ -580,7 +586,6 @@ img {
   display: flex;
   gap: 16px;
   justify-content: center;
-  margin-bottom: 72px;
 }
 .footer-sl-link {
   display: block;
@@ -605,7 +610,7 @@ img {
   flex-direction: column;
 }
 .footer-form-input {
-  max-width: 364px;
+  max-width: 396px;
   background-color: var(--background-dark);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -674,6 +679,8 @@ img {
     padding: 40px;
   }
   .mobile-menu {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -746,7 +753,7 @@ img {
     color: var(--brand-color);
   }
   .mobile-contacts {
-    margin-top: 284px;
+    margin-top: auto;
   }
   .mobile-phone-link {
     font-style: normal;
@@ -766,7 +773,6 @@ img {
   .mobile-sl-list {
     display: flex;
     margin-top: 48px;
-    justify-content: space-evenly;
   }
   .mobile-sl-link {
     display: block;
@@ -795,7 +801,7 @@ img {
   }
   .mobile-sl-list {
     gap: 56px;
-    justify-content: center;
+    /* justify-content: center; */
   }
 }
 
@@ -884,6 +890,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-img-tablet.jpg);
+    max-width: 768px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -914,6 +921,9 @@ img {
   .features .section-item {
     max-width: 356px;
     margin: 0;
+  }
+  .features .section-subtitle {
+    text-align: left;
   }
   /* -----------------------------------------------------TEAM-TABLET------------------------------------------------------------ */
   .team .section-item {
@@ -1053,6 +1063,8 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-img.jpg);
+    padding: 188px 0;
+    max-width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
