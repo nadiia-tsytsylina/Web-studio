@@ -1014,6 +1014,12 @@ img {
     gap: 24px;
     margin-left: 89px;
   }
+  .footer-information {
+    padding: 0;
+  }
+  .footer-form-input {
+    width: 264px;
+  }
   .footer-button {
     align-self: flex-end;
     margin: 0;
@@ -1134,6 +1140,9 @@ img {
   .team .section-subtitle {
     text-align: center;
   }
+  .work .section-item {
+    margin: 0;
+  }
   /* -----------------------------------------------------CUSTOMERS-PC------------------------------------------------------------ */
   .customers-list {
     flex-wrap: nowrap;
@@ -1170,6 +1179,7 @@ img {
   }
   .footer-information {
     margin: 0;
+    padding: 0;
   }
   .footer-text {
     width: 264px;
