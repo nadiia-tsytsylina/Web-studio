@@ -151,24 +151,24 @@
           <h1 class="visually-hidden">Gallery</h1>
           <ul class="filter-list list">
             <li class="section-item">
-              <button class="filter-button" type="button">All</button>
+              <button class="filter-button" id="all-button" type="button">All</button>
             </li>
             <li class="section-item">
-              <button class="filter-button" type="button">Web Site</button>
+              <button class="filter-button" id="web-site-button" type="button">Web Site</button>
             </li>
             <li class="section-item">
-              <button class="filter-button" type="button">App</button>
+              <button class="filter-button" id="app-button" type="button">App</button>
             </li>
             <li class="section-item">
-              <button class="filter-button" type="button">Design</button>
+              <button class="filter-button" id="design-button" type="button">Design</button>
             </li>
             <li class="section-item">
-              <button class="filter-button" type="button">Marketing</button>
+              <button class="filter-button" id="marketing-button" type="button">Marketing</button>
             </li>
           </ul>
 
           <ul class="gallery-list list">
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="app">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -195,7 +195,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="marketing">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -220,7 +220,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="app">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -245,7 +245,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="marketing">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -270,7 +270,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="design">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -295,7 +295,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="marketing">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                   <picture>
@@ -320,7 +320,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="design">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                     <picture>
@@ -345,7 +345,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="web">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                     <picture>
@@ -370,7 +370,7 @@
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
+            <li class="gallery-item" data-attribute="web">
               <a class="gallery-link link" href="">
                 <div class="gallery-thumb">
                     <picture>
@@ -486,5 +486,6 @@
       </div>
     </footer>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/filter.js"></script>
   </body>
 </html>
