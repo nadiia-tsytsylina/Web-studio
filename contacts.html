@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container main-nav">
+        <nav class="navigation-main">
+          <a class="logo link" href="./index.html"
+            ><span class="logo-accent">web</span>studio</a
+          >
+          <ul class="navigation list">
+            <li class="navigation-item">
+              <a class="navigation-link link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link link current" href="./contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg class="burger-icon">
+            <use href="./images/modal.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <ul class="contacts list">
+          <li class="contacts-item">
+            <a class="contacts-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-menu mobile-menu-container js-menu-container">
+        <button type="button" class="mobile-menu-close js-close-menu">
+          <svg class="close-icon">
+            <use href="./images/modal.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-navigation list">
+            <li class="mobile-navigation-item">
+              <a class="mobile-navigation-link link current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-navigation-item">
+              <a class="mobile-navigation-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-navigation-item">
+              <a class="mobile-navigation-link link" href="./contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="mobile-contacts list">
+          <li class="mobile-navigation-item">
+            <a class="mobile-phone-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-navigation-item">
+            <a class="mobile-email-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="list mobile-sl-list">
+          <li>
+            <a
+              class="mobile-sl-link"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >
+              <svg class="mobile-sl-icon">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile-sl-link"
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >
+              <svg class="mobile-sl-icon">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile-sl-link"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >
+              <svg class="mobile-sl-icon">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile-sl-link"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >
+              <svg class="mobile-sl-icon">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+    <section class="contacts-section section">
+        <div class="container">
+            <h1 class="section-title">Contacts</h1>
+            <address class="contacts-address">
+                <div class="contacts-address-text">
+                    <p class="section-text">Ukraine, Lviv,<br>
+                 Svobody Ave., 35, 79000</p>
+                 <ul class="contacts-worktime list">
+                    <li class="contacts-worktime-item">
+                        <p class="section-text">Monday - Friday<br>
+                        06:00 AM - 10:00 PM</p>
+                    </li>
+                    <li class="contacts-worktime-item">
+                        <p class="section-text">Saturday - Sunday<br>
+                        08:00 AM - 16:00 PM</p>
+                    </li>
+                </ul>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9775978352604!2d24.024636842011056!3d49.842878450993275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add725ab647bd%3A0x82e79ee6ee1db4b6!2z0L_RgNC-0YHQvy4g0KHQstC-0LHQvtC00YssIDM1LCDQm9GM0LLQvtCyLCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1sru!2sua!4v1682851976856!5m2!1sru!2sua" 
+                width="600" height="450" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </address>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-information">
+            <a class="footer-logo logo link" href="./index.html"
+              ><span class="logo-accent">web</span>studio</a>
+            <p class="footer-text section-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-sl">
+            <h3 class="footer-sl-title">Social media</h3>
+            <ul class="list footer-sl-list">
+              <li>
+                <a
+                  class="footer-sl-link"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow">
+                  <svg class="footer-sl-icon">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-sl-link"
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <svg class="footer-sl-icon">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-sl-link"
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <svg class="footer-sl-icon">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-sl-link"
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <svg class="footer-sl-icon">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form class="footer-form">
+          <div class="footer-form-field">
+            <label class="footer-sl-title" for="footer-email"
+              >Subscribe</label>
+            <input
+              class="footer-form-input"
+              type="email"
+              name="email"
+              id="footer-email"
+              placeholder="E-mail"
+            />
+          </div>
+            <button class="footer-button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon">
+                <use href="./images/modal.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+        </form>
+      </div>
+    </footer>
+     
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

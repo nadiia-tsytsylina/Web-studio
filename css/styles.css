@@ -134,6 +134,7 @@ textarea {
   padding-bottom: 96px;
 }
 .section-subtitle {
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -145,6 +146,7 @@ textarea {
   margin-top: 0;
 }
 .section-text {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -659,6 +661,26 @@ img {
 .footer-button:focus {
   background: var(--brand-color);
 }
+/* -----------------------------------------------------MOBILE-CONTACTS------------------------------------------------------------ */
+.contacts-address {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.contacts-address-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+iframe {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* -----------------------------------------------------MOBILE------------------------------------------------------------ */
 @media screen and (max-width: 767px) {
   .navigation {
@@ -1024,7 +1046,26 @@ img {
     align-self: flex-end;
     margin: 0;
   }
+  /* -----------------------------------------------------TABLET-CONTACTS------------------------------------------------------------ */
+  .contacts-address {
+    flex-direction: row;
+  }
+
+  .contacts-address-text {
+    text-align: left;
+  }
+
+  iframe {
+    width: 320px;
+    margin-right: 0;
+  }
+
+  iframe {
+    width: 396px;
+    height: 250px;
+  }
 }
+
 /* -----------------------------------------------------PC------------------------------------------------------------ */
 @media screen and (min-width: 1200px) {
   .container {
@@ -1198,5 +1239,12 @@ img {
 
   .footer-button {
     align-self: center;
+  }
+  /* -----------------------------------------------------PC-CONTACTS------------------------------------------------------------ */
+
+  iframe {
+    width: 600px;
+    height: 400px;
+    margin-right: auto;
   }
 }
